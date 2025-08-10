@@ -1,0 +1,102 @@
+.button-send {
+    border: none;
+    border-radius: 3px;
+    padding: 0.4rem;
+    margin: 0.6rem 1.2rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #faebd7;
+}
+
+.button-send:hover {
+    background-color: #dfd2c1;
+    border: 1px black solid;
+}
+
+.text-input {
+    margin: 0.2rem 0.6rem 0.8rem 0.6rem;
+    padding: 0.4rem;
+}
+
+.main {
+    margin: 1rem;
+    padding: 0.2rem;
+    background: rgb(170, 154, 129);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.product img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+html, body {
+    height: 100%;              
+    margin: 0px;  
+    margin-bottom: 0px;              
+}
+
+
+body {
+    background-attachment: fixed;
+    background: linear-gradient(to top, #c3c3c3, #ffecd3);
+}
+
+input {
+    border: none;
+    border-radius: 2px 3px 3px 2px;
+    padding: 0.2rem;
+    background-color: #e7dfce;
+    color: black;
+    box-shadow: 0.1rem 0.1rem rgba(0,0,0,0.4);
+    width: 14rem;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+#toast {
+    visibility: hidden;
+    min-width: 200px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.5s, bottom 0.5s;
+    font-family: sans-serif;
+}
+
+#toast.show {
+    visibility: visible;
+    opacity: 1;
+    top: 50px;
+}
+
+#toast.success { 
+    background: #4caf50; 
+}
+
+#toast.error { 
+    background: #f44336; 
+}
