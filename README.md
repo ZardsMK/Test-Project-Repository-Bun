@@ -1,15 +1,15 @@
 # To run the backend
 
-### - cd backend
+#### - cd backend
 
-### - bun install
+#### - bun install
 
-### - bun start
+#### - bun start
 
-# To run the backend
+# To run the frontend
 
-### - cd frontend
+#### - cd frontend
 
-### - npm install
+#### - npm install
 
-### - npm run dev
+#### - npm run dev
